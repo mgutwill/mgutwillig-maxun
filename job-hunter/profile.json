@@ -1,0 +1,25 @@
+{
+  "salary_floor_base": 70000,
+  "max_age_days": 7,
+  "shortlist_size": 30,
+
+  "remote_ok_regions": ["canada", "ontario", "gta", "toronto", "greater toronto"],
+  "onsite_ok_cities": ["ajax", "pickering", "whitby", "scarborough"],
+  "hybrid_ok_cities": ["ajax", "pickering", "whitby", "scarborough", "oshawa", "toronto", "north york", "markham"],
+  "drop_onsite_in_other_cities": true,
+
+  "title_strong": ["key account manager", "senior account manager", "account manager", "client success manager", "customer success manager", "strategic account manager", "territory account manager", "national account manager", "client partner", "renewals manager", "account director"],
+  "title_ok": ["account executive", "customer success", "client success", "relationship manager", "sales manager", "territory manager", "account development"],
+  "title_exclude": ["intern", "co-op", "junior", "entry level", "entry-level", "sales development", "sdr", "bdr", "business development representative", "vice president", " vp ", "director of", "head of", "commission only", "100% commission", "insurance advisor", "financial advisor", "real estate", "recruiter", "driver", "technician"],
+
+  "industries": {
+    "cpg": ["cpg", "consumer packaged goods", "consumer goods", "packaged goods", "grocery", "beverage", "snack", "retail accounts", "retailer"],
+    "foodservice": ["foodservice", "food service", "food distribution", "restaurant", "hospitality", "catering", "distributor"],
+    "tech_saas": ["saas", "software", "cloud", "platform", "b2b software", "subscription"],
+    "fintech": ["fintech", "payments", "billing", "banking", "lending", "financial technology", "payment processing"]
+  },
+
+  "skills": ["renewals", "upsell", "cross-sell", "expansion", "retention", "churn", "nrr", "arr", "qbr", "business review", "salesforce", "crm", "contract negotiation", "negotiat", "territory", "portfolio", "smb", "mid-market", "b2b", "consultative", "forecast", "cross-functional", "stakeholder", "onboarding", "adoption", "quota"],
+
+  "weights": {"title": 30, "industry": 25, "skills": 20, "location": 15, "salary": 10}
+}
